@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>FORM</title>
+	<style>
+		body{
+			margin: 0;padding: 0;background-image: url(images/ist.JPG);background-position: center;background-size: cover;height: 400px;width: 500px;
+
+		}
+
+		
+		.task{
+			width: 330px;height: 370px;background: white;top: 150px;right: 600px;position: absolute;
+			transform: translate(-50px,-50px);
+			box-sizing: border-box;
+			padding: 40px 30px;
+			border-radius: 10px;
+		}
+		h1{
+			margin: 0;
+			padding: 0 0 20px;
+			text-align: center;
+			front-size: 22px;
+		}
+		.task h1{
+			background-color: red;
+			borber-radius: 6px;
+			margin: 0;
+			padding: 10px;
+			font-weight: bold;
+		}
+		.task input{
+			width: 280px;
+			margin-bottom: 18px;
+			border-radius: 4px;
+		}
+		.task input[type="text"],input[type="password"]
+		{
+			border: none;
+			border-bottom: 2px solid blue;
+			background: transparent;
+			color:black	;
+			outline: none;
+			height: 20px;
+			font-size: 16px;
+		} 
+		.task input[type="submit"]
+		{
+			border: none;
+			outline: none;
+			height: 30px;
+			color: wheat;
+			background: black;
+			font-size: 17px;
+			border-radius: 20px;
+		}
+		.task input[type="submit"]:hover
+		{
+			cursor: pointer;
+			background:white ;
+			color: black;
+			font-weight: bold;
+		}
+		.task a{
+			text-decoration: none;
+			font-size: 14px;
+			line-height: 18px;
+			color: darkblue;
+		} 
+		.task a:hoverP{
+			color: white;
+		}
+	</style>
+	</head>	
+<body>
+	<div class="Task">
+
+		<h1><i class="fa fa-user-circle"></i>Login Here</h1>
+		<form>
+			<p>UserId</p>
+			<input type="text"  placeholder="Enter Email Id">
+			<p>Password</p>
+			<input type="password" placeholder="Enter password">
+			<input type="submit" name="" value="Login"><br>
+			<a href="#">Forgot Your Password<br>
+			<a href="#">Create New Account</a>
+
+		
+	</div>
+</body>
+</html>	
